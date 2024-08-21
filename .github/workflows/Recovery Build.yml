@@ -26,9 +26,11 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
+        default: 'https://github.com/Shiotawa/twrp-device_transsion_mt6789-common.git'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
+        default: 'device/transsion/mt6789-common'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
